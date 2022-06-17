@@ -36,23 +36,34 @@ form{
   background-color: white;
   padding: 20px;
   width : 100%;
+  box-shadow: 2px 2px grey;
 }
 input, button{
-  box-shadow: 3px 2px lightgrey;
   padding: 15px;
   width: 100%;
-  
   border-radius: 6px;
   border-style:solid;
-  border-color: lightgray ;
+
+}
+
+button{
+  box-shadow: 3px 5px grey;
+  border: none;
 }
 #btn{
-  width:inherit(input);
-  background-color: purple;
+  
+  background-color: rgb(128, 0, 128);
 ;
 }
 #btn2{
   background-color: green;
+}
+#btn:hover{
+  background-color: rgb(180, 40, 180);
+
+}
+#btn2:hover{
+  background-color: rgb(66, 187, 66) ;
 }
 @media only screen and (min-width: 768px){
   .big-container{
