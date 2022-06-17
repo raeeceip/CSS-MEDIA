@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 5px;
     color:white;
+    font-family: 'Poppins', sans-serif;
     
   }
 
@@ -11,7 +12,7 @@
   
 }
 body{
-  background-color: rgba(255, 0, 0, 0.813);
+  background-color: hsl(0, 100%, 74%);
   background-image: url('bg-intro-mobile.png');
   background-position: center;
   background-size: cover;
@@ -23,11 +24,15 @@ body{
 }
 p{
   align-self: center;
-  color:gray
+  color:aliceblue
 }
 a{
   text-decoration: none;
   color: red;
+}
+input[type=text].error,
+input[type=password].error{
+  content:  url("icon-error.svg");
 }
 form{
   display: inline-block;
@@ -52,14 +57,14 @@ button{
 }
 #btn{
   
-  background-color: rgb(128, 0, 128);
+  background-color: hsl(248, 32%, 49%);
 ;
 }
 #btn2{
-  background-color: green;
+  background-color: hsl(154, 59%, 51%);
 }
 #btn:hover{
-  background-color: rgb(180, 40, 180);
+  background-color: hsl(249, 10%, 26%);
 
 }
 #btn2:hover{
