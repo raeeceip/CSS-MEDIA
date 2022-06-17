@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin-top: 10px;
-    color:white
+    margin: 5px;
+    color:white;
     
   }
 
@@ -21,26 +21,35 @@ body{
     margin: 40px;
 
 }
-
-.small-container{
+p{
+  align-self: center;
+  color:gray
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+form{
   display: inline-block;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: white;
   padding: 20px;
-  
+  width : 100%;
 }
-form input, form button{
-  box-shadow: 5px 2px lightgrey;
-  padding: 13px;
+input, button{
+  box-shadow: 3px 2px lightgrey;
+  padding: 15px;
   width: 100%;
   
-  border-radius: 10px;
+  border-radius: 6px;
   border-style:solid;
-  border-color: initial;
+  border-color: lightgray ;
 }
 #btn{
+  width:inherit(input);
   background-color: purple;
+;
 }
 #btn2{
   background-color: green;
@@ -61,7 +70,6 @@ form input, form button{
     margin:20px;
     border-radius: 10px;
     width: 50%;
-    box-shadow: 5px 5px gray;
     
   }
  
